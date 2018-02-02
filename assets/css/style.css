@@ -1,0 +1,221 @@
+
+.wrap{ width:960px;
+
+}
+
+/* Header list style */
+
+
+
+#nav {overflow:hidden;
+    background-color:white;
+    position:fixed;
+    top: 0;
+    margin: 0;
+    width:100%;
+
+}
+    
+  #nav li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #f2f2f2;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline;
+
+  }
+   
+  #nav a {font-size:large;
+    text-shadow: 2px 2px 5px rgb(55, 90, 203);
+    font-weight: bold;
+    color: rgb(26, 65, 221);
+    display: inline;
+    padding: 16px;
+    margin-right: 10px;
+    padding-right: 10px;
+    
+    
+ }
+
+ .navbar a:hover {
+    background: #ddd;
+    color: rgb(8, 79, 167);
+  }
+  
+
+
+
+ .listItems {
+     display: inline-block;
+     float: right;
+
+ }
+
+.name{
+    font-size:large;
+    text-shadow: 2px 2px 5px rgb(55, 90, 203);
+    font-weight: bold;
+    float: left;
+    margin-left: 60px;
+    margin-right: 60px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    
+    
+}
+
+
+#rock{float:left;
+
+}
+
+#header{font-size: 20px;
+    
+    
+    padding: 20px;
+    border-style: solid;
+    border-color: tan;
+}
+
+h1 
+{border-bottom-style: solid;
+border-color:#dddddd;
+
+}
+
+h2{border-bottom-style: solid;
+    border-color:#dddddd;
+
+}
+
+body{
+     background-image: url(../images/skulls.png);
+     margin: 0;
+     padding: 0;
+    
+}
+
+#page{
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;        
+}
+
+.content{
+    font-family: myfirstfont;
+    background-color: cornsilk;
+    padding: 2em;
+    width: 40%;
+    height: 300px;
+    margin: 45px;
+    margin-top: 115px;
+    margin-left: 50px;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    float:left;
+    
+}
+
+ul.horizontalTwo{ 
+    display:inline-flex;
+    list-style-type: none;
+    padding: 0px;
+    margin:auto;
+    margin-left: 70px;
+
+
+}
+
+.sidebar{
+    padding:1em;
+    float:right;
+    width: 20%;
+    margin: 10px;
+    margin-top: 115px;
+    margin-right: 50px;
+    background-color: cornsilk;
+    border-bottom-style: solid;
+    border-right-style: solid;
+    
+    
+}
+.footer{
+    overflow:hidden;
+    background-color: aquamarine;
+    position: relative;
+    bottom: 0;
+    margin: 0;
+    width:100%;
+    text-align: center;
+    background-color: #666666;
+    box-sizing: border-box;
+    padding: 5px;    
+    clear: both;
+    border-top-color: #4aaaa5;
+    border-top-style: solid;
+    border-top-width: thick;
+}
+
+
+/*Portfolio Layout Style */
+
+section {
+    width:274px;
+}
+
+.wrapper{
+    padding:10px;
+}
+
+img {
+    max-width:80px;
+    display:inline-block;
+    width:30%;
+}
+
+
+   /* Contact Layout Style */
+   input[type=text], {
+    width: 100%;
+    padding: 10px 10px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=message]  {
+    width: 100%;
+    padding: 40px 40px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+
+input[type=submit] {
+    width: 30%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 30px;
+    margin: 0px 0;
+    border: bord;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+    width: 30%;
+}
+
+#form border {background-color: #f2f2f2;
+    border-radius: 5px;
+       padding: 20px;
+}
